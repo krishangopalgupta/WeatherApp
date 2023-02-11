@@ -9,7 +9,8 @@ const form = document.querySelector("form");
 
 
 // fetch data
-let inputCity="delhi";
+//let inputCity="delhi";
+let inputCity;
 const fetchData = async (inputCity) => {
 
   const url = `http://api.weatherapi.com/v1/current.json?key=a39f1f22d9d24f87b50180922230802&q=${inputCity}`;
